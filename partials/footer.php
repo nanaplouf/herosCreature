@@ -1,3 +1,3 @@
-<footer><?= date('Y') ?> © Vera DOS SANTOS</footer>
+<footer><p><?= date('Y') ?> © Vera DOS SANTOS - nanaplouf </p></footer>
 </body>
 </html>
