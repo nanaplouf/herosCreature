@@ -15,6 +15,7 @@
                         <div style="width: 18rem;">
                             <img class="card-img-top" src="public/img/<?= $value['picture'] ?>" alt="Image de <?php echo $value['name'] ?>">
                             <h2><?= $value['name']?></h2>
+                            <a href="hero.php?id=<?= $value['id']?>" class="btn btn-info">Voir +</a>
                         </div>
                     <?php
                 }
