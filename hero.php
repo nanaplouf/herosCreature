@@ -23,7 +23,19 @@
         $result = getHeros($id, $heros);
         //var_dump($result);
         if($result !== NULL){
-            echo "<h1>" . $result['name'] . "</h1>";
+            ?>
+                <div class="container">
+                    <h1><?= $result['name'] ?></h1>
+                    <div class="row">
+                        <div class="col">
+                            <img src="public/img/<?= $result['picture']?>" alt="Image de <?= $result['name']?>">
+                        </div>
+                        <div class="col">
+                            <h2 class="text-center mt-5"><?= $result['magic_power']?><h2>
+                        </div>
+                    </div>
+                </div>
+            <?php
         } else{
             echo "<h1>Aucun hero trouvé !</h1>";
         }
