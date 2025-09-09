@@ -2,7 +2,7 @@
     require_once 'partials/head.php';
 ?>
 <h1>Nous contacter ! </h1>
-    <form action="">
+    <form action="validform.php" method="post">
         <div class="container mt-5">
             <div class="form-group">
                 <label for="email">Adresse e-mail</label>
@@ -10,8 +10,8 @@
             </div>
 
             <div class="form-group">
-                <label for="prenom">Prénom</label>
-                <input type="text" class="form-control" name="prenom" placeholder="Marie" required>
+                <label for="name">Prénom</label>
+                <input type="text" class="form-control" name="name" placeholder="Marie" required>
             </div>
 
             <div class="form-group">
