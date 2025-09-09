@@ -24,6 +24,11 @@
             }   
             ?>
         </div>
+        <div class="row mt-5">
+            <div class="col-1"><a href="form.php" class="btn btn-warning ">Contact</a></div>
+            
+        </div>
+        
     </div>
 <?php
     require_once 'partials/footer.php';
